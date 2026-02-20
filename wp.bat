@@ -1,7 +1,7 @@
 @echo off
 :: Set the path to pythonw.exe and the script
-set PYTHON_PATH=C:\Users\mlizak\AppData\Local\anaconda3\envs\testing\pythonw.exe
-set SCRIPT_PATH=C:\Users\mlizak\Desktop\wallpaper\wallpaperScraper.py
+set PYTHON_PATH=C:\Users\lizakm\AppData\Local\miniforge3\envs\geo\python.exe
+set SCRIPT_PATH=C:\Users\lizakm\OneDrive - AGR-AGR\Desktop\Quick Scripts\wallpaperScraper.py
 
 :: Check if pythonw.exe is installed
 %PYTHON_PATH% --version
@@ -30,4 +30,4 @@ if %ERRORLEVEL% neq 0 (
 )
 
 echo Python script executed successfully.
-pause
+exit
