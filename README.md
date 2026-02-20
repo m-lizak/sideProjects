@@ -7,7 +7,8 @@ Automatically downloads the most recent **NOAA GLERL VIIRS True Color** imagery 
 - Selects the largest (best coverage) recent image
 - Fixes DPI metadata for Windows
 - Sets wallpaper across all monitors
-- Runs continuously on a 15-minute interval
+- Checks for new imagery every 30 minutes
+- Adds caption with imagery source, date and time to wallpaper
 
 ## Requirements
 - Windows 10 / 11  
